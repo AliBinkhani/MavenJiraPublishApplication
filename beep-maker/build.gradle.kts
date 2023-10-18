@@ -4,7 +4,9 @@ plugins {
 }
 
 android {
-    namespace = "me.alibinkhani.beep_maker"
+//    namespace = "me.alibinkhani.beep_maker"
+    namespace = "io.github.alibinkhani.beep_maker" // this changed
+
     compileSdk = 33
 
     defaultConfig {
@@ -41,3 +43,6 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
+
+// and this added
+apply(from = "../publish-package.gradle")

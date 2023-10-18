@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "me.alibinkhani.mavenjirapublishapplication"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "me.alibinkhani.mavenjirapublishapplication"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
